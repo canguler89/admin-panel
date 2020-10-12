@@ -3,7 +3,7 @@
     {
       "id": "1",
       "title": "Post One",
-      "body": "This is the post body",
+      "body": "This is the post body for post 1",
       "publishedAt": "10-08-2020"
     },
     {
@@ -29,12 +29,18 @@
       "title": "Post five",
       "body": "This is the post body",
       "publishedAt": "10-08-2020"
+    },
+    {
+      "title": "Post Four",
+      "body": "This is the body for post four",
+      "publishedAt": "2020-10-11",
+      "id": "ezduAMH"
     }
   ],
   "users": [
     {
       "id": "1",
-      "name": "John Doe",
+      "name": "Can Guler",
       "email": "johndoe@email.com"
     }
   ]

@@ -3,23 +3,23 @@ import {
   List,
   Datagrid,
   TextField,
-  DateField,
   EditButton,
   DeleteButton,
+  EmailField,
 } from "react-admin";
 
-const PostLists = (props) => {
+const UserList = (props) => {
   return (
     <List {...props}>
       <Datagrid>
         <TextField source="id" />
-        <TextField source="title" />
-        <DateField source="publishedAt" />
-        <EditButton basePath="/posts" />
-        <DeleteButton basePath="/posts" />
+        <TextField source="name" />
+        <EmailField source="email" />
+        <EditButton basePath="/users" />
+        <DeleteButton basePath="/users" />
       </Datagrid>
     </List>
   );
 };
 
-export default PostLists;
+export default UserList;
